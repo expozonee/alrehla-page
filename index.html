@@ -1,158 +1,272 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alrehla — الدعم | Support</title>
-  <meta name="description" content="Alrehla: browse scheduled bus trips and book your seat. Support and contact information.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap">
-  <link rel="stylesheet" href="style.css">
-  <script src="site.js"></script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="wrap bar">
-      <a class="brand" href="./">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6v6"/><path d="M15 6v6"/><path d="M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/><circle cx="7" cy="18" r="2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/></svg>
-        </span>
-        Alrehla
-      </a>
-      <div class="lang-switch" role="group" aria-label="اللغة / Language">
-        <button type="button" data-set-lang="ar" lang="ar">العربية</button>
-        <button type="button" data-set-lang="en" lang="en">English</button>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alrehla — الدعم | Support</title>
+    <meta
+      name="description"
+      content="Alrehla: browse scheduled bus trips and book your seat. Support and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="site.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="./">
+          <span class="brand-mark" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M8 6v6" />
+              <path d="M15 6v6" />
+              <path d="M2 12h19.6" />
+              <path
+                d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"
+              />
+              <circle cx="7" cy="18" r="2" />
+              <path d="M9 18h5" />
+              <circle cx="16" cy="18" r="2" />
+            </svg>
+          </span>
+          Alrehla
+        </a>
+        <div class="lang-switch" role="group" aria-label="اللغة / Language">
+          <button type="button" data-set-lang="ar" lang="ar">العربية</button>
+          <button type="button" data-set-lang="en" lang="en">English</button>
+        </div>
       </div>
-    </div>
-    <nav class="site-nav" aria-label="Site">
+      <nav class="site-nav" aria-label="Site">
+        <div class="wrap">
+          <a href="./" aria-current="page"
+            ><span class="ar">الدعم</span><span class="en">Support</span></a
+          >
+          <a href="privacy.html"
+            ><span class="ar">سياسة الخصوصية</span
+            ><span class="en">Privacy Policy</span></a
+          >
+          <a href="delete-account.html"
+            ><span class="ar">حذف الحساب</span
+            ><span class="en">Delete Account</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main class="wrap">
+      <!-- ===================== العربية ===================== -->
+      <section class="ar" lang="ar" dir="rtl">
+        <h1>Alrehla</h1>
+        <p class="lead">
+          تطبيق لتصفّح رحلات الحافلات المجدولة وحجز المقاعد فيها.
+        </p>
+
+        <div class="card">
+          <h2>ماذا يمكنك أن تفعل في التطبيق؟</h2>
+          <ul>
+            <li>
+              تصفّح الرحلات المتاحة حسب المدينة ونقطة الانطلاق، بدون تسجيل دخول.
+            </li>
+            <li>تسجيل الدخول باستخدام Apple أو Google عند الرغبة في الحجز.</li>
+            <li>حجز مقعد لك وإضافة مرافقين حسب السعة المتاحة.</li>
+            <li>
+              الانضمام إلى قائمة الانتظار عند امتلاء الحافلة، وتأكيد الحجز
+              تلقائياً عند توفر مقعد.
+            </li>
+            <li>
+              متابعة حجوزاتك القادمة، وتعديل عدد المرافقين أو إلغاء الحجز.
+            </li>
+            <li>تلقي إشعارات عند تأكيد الحجز أو تعديله أو إلغائه.</li>
+          </ul>
+          <p class="muted">لا يتضمن التطبيق أي مدفوعات أو مشتريات.</p>
+        </div>
+
+        <h2 id="contact">الدعم والتواصل</h2>
+        <p>
+          لأي سؤال أو مشكلة في التطبيق، راسلنا عبر البريد الإلكتروني، ونرد عادةً
+          خلال ثلاثة أيام عمل.
+        </p>
+        <p>
+          <a class="btn" href="mailto:CONTACT_EMAIL" dir="ltr">CONTACT_EMAIL</a>
+        </p>
+        <p class="muted">
+          لتسريع المساعدة، اذكر نوع جهازك ووصفاً مختصراً للمشكلة، وأرفق لقطة
+          شاشة إن أمكن.
+        </p>
+
+        <h2>الأسئلة الشائعة</h2>
+        <details>
+          <summary>هل أحتاج إلى حساب لاستخدام التطبيق؟</summary>
+          <p>
+            لا. يمكنك تصفّح الرحلات بدون تسجيل. تحتاج إلى تسجيل الدخول باستخدام
+            Apple أو Google فقط عند إنشاء حجز أو إدارة حجوزاتك.
+          </p>
+        </details>
+        <details>
+          <summary>كيف أحجز مقعداً؟</summary>
+          <p>
+            اختر مدينتك ونقطة الانطلاق، ثم اختر الرحلة المناسبة واضغط على زر
+            الحجز، وحدّد عدد المرافقين إن وُجدوا.
+          </p>
+        </details>
+        <details>
+          <summary>ما هي قائمة الانتظار؟</summary>
+          <p>
+            إذا لم تتوفر مقاعد كافية في الرحلة، يمكنك الانضمام إلى قائمة
+            الانتظار. عند توفر مقعد مناسب يُؤكَّد حجزك تلقائياً ويصلك إشعار
+            بذلك.
+          </p>
+        </details>
+        <details>
+          <summary>كيف أعدّل عدد المرافقين أو ألغي حجزي؟</summary>
+          <p>
+            افتح صفحة «حجوزاتي»، واختر الحجز، ثم عدّل عدد المرافقين أو ألغِ
+            الحجز.
+          </p>
+        </details>
+        <details>
+          <summary>لا تصلني الإشعارات، ماذا أفعل؟</summary>
+          <p>
+            تأكد من السماح بإشعارات تطبيق Alrehla من إعدادات جهازك، ومن أنك
+            مسجّل الدخول في التطبيق.
+          </p>
+        </details>
+        <details>
+          <summary>هل يوجد دفع داخل التطبيق؟</summary>
+          <p>لا. التطبيق لا يتضمن أي مدفوعات أو مشتريات داخلية.</p>
+        </details>
+        <details>
+          <summary>كيف أحذف حسابي وبياناتي؟</summary>
+          <p>
+            يمكنك حذف حسابك من داخل التطبيق في أي وقت، أو بطلب عبر البريد
+            الإلكتروني. التفاصيل الكاملة في صفحة
+            <a href="delete-account.html">حذف الحساب</a>.
+          </p>
+        </details>
+      </section>
+
+      <!-- ===================== English ===================== -->
+      <section class="en" lang="en" dir="ltr">
+        <h1>Alrehla</h1>
+        <p class="lead">
+          An app for browsing scheduled bus trips and booking seats on them.
+        </p>
+
+        <div class="card">
+          <h2>What you can do in the app</h2>
+          <ul>
+            <li>
+              Browse available trips by city and starting point, without signing
+              in.
+            </li>
+            <li>Sign in with Apple or Google when you want to book.</li>
+            <li>
+              Book a seat for yourself and add companions, based on available
+              capacity.
+            </li>
+            <li>
+              Join the waitlist when a bus is full; your booking is confirmed
+              automatically when a seat opens up.
+            </li>
+            <li>
+              Follow your upcoming bookings, change the number of companions, or
+              cancel a booking.
+            </li>
+            <li>
+              Get notifications when a booking is confirmed, changed, or
+              cancelled.
+            </li>
+          </ul>
+          <p class="muted">The app has no payments or in-app purchases.</p>
+        </div>
+
+        <h2 id="contact-en">Support and contact</h2>
+        <p>
+          For any question or problem with the app, email us. We usually reply
+          within three business days.
+        </p>
+        <p><a class="btn" href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+        <p class="muted">
+          To help us help you faster, include your device model, a short
+          description of the problem, and a screenshot if possible.
+        </p>
+
+        <h2>Frequently asked questions</h2>
+        <details>
+          <summary>Do I need an account to use the app?</summary>
+          <p>
+            No. You can browse trips without signing in. You only need to sign
+            in with Apple or Google to create a booking or manage your bookings.
+          </p>
+        </details>
+        <details>
+          <summary>How do I book a seat?</summary>
+          <p>
+            Choose your city and starting point, pick a trip, tap the booking
+            button, and set the number of companions if any.
+          </p>
+        </details>
+        <details>
+          <summary>What is the waitlist?</summary>
+          <p>
+            If a trip doesn't have enough seats, you can join its waitlist. When
+            a suitable seat becomes available, your booking is confirmed
+            automatically and you get a notification.
+          </p>
+        </details>
+        <details>
+          <summary>How do I change companions or cancel a booking?</summary>
+          <p>
+            Open the "My Bookings" (حجوزاتي) page, select the booking, then
+            change the number of companions or cancel it.
+          </p>
+        </details>
+        <details>
+          <summary>I'm not getting notifications. What should I do?</summary>
+          <p>
+            Make sure notifications for Alrehla are allowed in your device
+            settings and that you are signed in to the app.
+          </p>
+        </details>
+        <details>
+          <summary>Are there payments in the app?</summary>
+          <p>No. The app has no payments or in-app purchases.</p>
+        </details>
+        <details>
+          <summary>How do I delete my account and data?</summary>
+          <p>
+            You can delete your account from inside the app at any time, or
+            request deletion by email. Full details are on the
+            <a href="delete-account.html">Delete Account</a> page.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="site-footer">
       <div class="wrap">
-        <a href="./" aria-current="page"><span class="ar">الدعم</span><span class="en">Support</span></a>
-        <a href="privacy.html"><span class="ar">سياسة الخصوصية</span><span class="en">Privacy Policy</span></a>
-        <a href="delete-account.html"><span class="ar">حذف الحساب</span><span class="en">Delete Account</span></a>
+        <span>© 2026 Expoz</span>
+        <span>
+          <a href="privacy.html"
+            ><span class="ar">سياسة الخصوصية</span
+            ><span class="en">Privacy Policy</span></a
+          >
+          ·
+          <a href="mailto:CONTACT_EMAIL" dir="ltr">alrehla-sup10@outlook.com</a>
+        </span>
       </div>
-    </nav>
-  </header>
-
-  <main class="wrap">
-    <!-- ===================== العربية ===================== -->
-    <section class="ar" lang="ar" dir="rtl">
-      <h1>Alrehla</h1>
-      <p class="lead">تطبيق لتصفّح رحلات الحافلات المجدولة وحجز المقاعد فيها.</p>
-
-      <div class="card">
-        <h2>ماذا يمكنك أن تفعل في التطبيق؟</h2>
-        <ul>
-          <li>تصفّح الرحلات المتاحة حسب المدينة ونقطة الانطلاق، بدون تسجيل دخول.</li>
-          <li>تسجيل الدخول باستخدام Apple أو Google عند الرغبة في الحجز.</li>
-          <li>حجز مقعد لك وإضافة مرافقين حسب السعة المتاحة.</li>
-          <li>الانضمام إلى قائمة الانتظار عند امتلاء الحافلة، وتأكيد الحجز تلقائياً عند توفر مقعد.</li>
-          <li>متابعة حجوزاتك القادمة، وتعديل عدد المرافقين أو إلغاء الحجز.</li>
-          <li>تلقي إشعارات عند تأكيد الحجز أو تعديله أو إلغائه.</li>
-        </ul>
-        <p class="muted">لا يتضمن التطبيق أي مدفوعات أو مشتريات.</p>
-      </div>
-
-      <h2 id="contact">الدعم والتواصل</h2>
-      <p>لأي سؤال أو مشكلة في التطبيق، راسلنا عبر البريد الإلكتروني، ونرد عادةً خلال ثلاثة أيام عمل.</p>
-      <p><a class="btn" href="mailto:CONTACT_EMAIL" dir="ltr">CONTACT_EMAIL</a></p>
-      <p class="muted">لتسريع المساعدة، اذكر نوع جهازك ووصفاً مختصراً للمشكلة، وأرفق لقطة شاشة إن أمكن.</p>
-
-      <h2>الأسئلة الشائعة</h2>
-      <details>
-        <summary>هل أحتاج إلى حساب لاستخدام التطبيق؟</summary>
-        <p>لا. يمكنك تصفّح الرحلات بدون تسجيل. تحتاج إلى تسجيل الدخول باستخدام Apple أو Google فقط عند إنشاء حجز أو إدارة حجوزاتك.</p>
-      </details>
-      <details>
-        <summary>كيف أحجز مقعداً؟</summary>
-        <p>اختر مدينتك ونقطة الانطلاق، ثم اختر الرحلة المناسبة واضغط على زر الحجز، وحدّد عدد المرافقين إن وُجدوا.</p>
-      </details>
-      <details>
-        <summary>ما هي قائمة الانتظار؟</summary>
-        <p>إذا لم تتوفر مقاعد كافية في الرحلة، يمكنك الانضمام إلى قائمة الانتظار. عند توفر مقعد مناسب يُؤكَّد حجزك تلقائياً ويصلك إشعار بذلك.</p>
-      </details>
-      <details>
-        <summary>كيف أعدّل عدد المرافقين أو ألغي حجزي؟</summary>
-        <p>افتح صفحة «حجوزاتي»، واختر الحجز، ثم عدّل عدد المرافقين أو ألغِ الحجز.</p>
-      </details>
-      <details>
-        <summary>لا تصلني الإشعارات، ماذا أفعل؟</summary>
-        <p>تأكد من السماح بإشعارات تطبيق Alrehla من إعدادات جهازك، ومن أنك مسجّل الدخول في التطبيق.</p>
-      </details>
-      <details>
-        <summary>هل يوجد دفع داخل التطبيق؟</summary>
-        <p>لا. التطبيق لا يتضمن أي مدفوعات أو مشتريات داخلية.</p>
-      </details>
-      <details>
-        <summary>كيف أحذف حسابي وبياناتي؟</summary>
-        <p>يمكنك حذف حسابك من داخل التطبيق في أي وقت، أو بطلب عبر البريد الإلكتروني. التفاصيل الكاملة في صفحة <a href="delete-account.html">حذف الحساب</a>.</p>
-      </details>
-    </section>
-
-    <!-- ===================== English ===================== -->
-    <section class="en" lang="en" dir="ltr">
-      <h1>Alrehla</h1>
-      <p class="lead">An app for browsing scheduled bus trips and booking seats on them.</p>
-
-      <div class="card">
-        <h2>What you can do in the app</h2>
-        <ul>
-          <li>Browse available trips by city and starting point, without signing in.</li>
-          <li>Sign in with Apple or Google when you want to book.</li>
-          <li>Book a seat for yourself and add companions, based on available capacity.</li>
-          <li>Join the waitlist when a bus is full; your booking is confirmed automatically when a seat opens up.</li>
-          <li>Follow your upcoming bookings, change the number of companions, or cancel a booking.</li>
-          <li>Get notifications when a booking is confirmed, changed, or cancelled.</li>
-        </ul>
-        <p class="muted">The app has no payments or in-app purchases.</p>
-      </div>
-
-      <h2 id="contact-en">Support and contact</h2>
-      <p>For any question or problem with the app, email us. We usually reply within three business days.</p>
-      <p><a class="btn" href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
-      <p class="muted">To help us help you faster, include your device model, a short description of the problem, and a screenshot if possible.</p>
-
-      <h2>Frequently asked questions</h2>
-      <details>
-        <summary>Do I need an account to use the app?</summary>
-        <p>No. You can browse trips without signing in. You only need to sign in with Apple or Google to create a booking or manage your bookings.</p>
-      </details>
-      <details>
-        <summary>How do I book a seat?</summary>
-        <p>Choose your city and starting point, pick a trip, tap the booking button, and set the number of companions if any.</p>
-      </details>
-      <details>
-        <summary>What is the waitlist?</summary>
-        <p>If a trip doesn't have enough seats, you can join its waitlist. When a suitable seat becomes available, your booking is confirmed automatically and you get a notification.</p>
-      </details>
-      <details>
-        <summary>How do I change companions or cancel a booking?</summary>
-        <p>Open the "My Bookings" (حجوزاتي) page, select the booking, then change the number of companions or cancel it.</p>
-      </details>
-      <details>
-        <summary>I'm not getting notifications. What should I do?</summary>
-        <p>Make sure notifications for Alrehla are allowed in your device settings and that you are signed in to the app.</p>
-      </details>
-      <details>
-        <summary>Are there payments in the app?</summary>
-        <p>No. The app has no payments or in-app purchases.</p>
-      </details>
-      <details>
-        <summary>How do I delete my account and data?</summary>
-        <p>You can delete your account from inside the app at any time, or request deletion by email. Full details are on the <a href="delete-account.html">Delete Account</a> page.</p>
-      </details>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>© 2026 DEVELOPER_NAME</span>
-      <span>
-        <a href="privacy.html"><span class="ar">سياسة الخصوصية</span><span class="en">Privacy Policy</span></a>
-        ·
-        <a href="mailto:CONTACT_EMAIL" dir="ltr">CONTACT_EMAIL</a>
-      </span>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
